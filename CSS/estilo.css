@@ -1,0 +1,538 @@
+main{
+    width: 78.3%;
+    margin: auto;
+    background-color: #cccccc;
+}
+
+h2{
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header{
+    background-color: #D50000;
+}
+
+
+
+
+/* menu */
+
+#menus{
+    text-align: center;
+    font-size: 26px;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+    padding-right: 40px;
+    }
+
+#menus table thead tr th a{
+    color:  white;
+    
+}
+
+
+
+.banner img {
+    width: 100%;
+    
+}
+
+.quemsomos img{
+    width: 100%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+#Conteudo {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+}
+
+
+#Conteudo a{
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+    
+.poema p{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+.testando p {
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.testando h2{
+    padding-left: 10px;
+}
+
+#desenvolvedores{
+    text-align: center;
+    padding-left: 450px;
+    padding-bottom: 50px;
+    
+}
+
+#link a {
+    align-content: center;
+    justify-content: center;
+
+}
+
+#caixa{
+    background-color: #FFFFFF;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    line-height: 1,5;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+
+
+#caixa div img{
+    padding-bottom: 40px;
+    width: 280px;
+}
+
+.caixaitem {
+    width: 330px;
+    
+}
+
+.caixaitem a{
+    color: black;
+}
+
+
+
+#secundario {
+    text-align: center;
+    padding-bottom: 50px;
+    text-decoration: none;
+}
+
+
+
+#secundario img{
+    width: 720px;
+    padding-bottom: 35px;
+}
+
+
+#secundario p {
+    width: 500px;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    color: black;
+    text-decoration-color: black;
+}
+
+
+.secundarioitem a:hover{
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+
+
+#newsletter p{
+    margin-bottom: 30px;
+}
+
+nav{
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 35px;
+}
+
+nav img{
+    width: 300px;
+}
+
+nav a{
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#podcast {
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+nav a:hover{
+    color: white;
+    font-weight: bold;
+}
+
+
+
+footer{
+    color: white; background-color: black;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    text-align: center;
+    font-size: 30px;
+    line-height: 0.5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+   
+    
+}
+
+
+
+
+footer table thead tr th a { color: white;
+    align-items: baseline;
+
+
+}
+
+footer table thead tr th p{
+        padding-top: 17px;
+  
+}
+
+footer table thead tr th a:hover{ color: white;
+
+
+}
+
+  
+
+footer img{
+    width: 50px;
+}
+
+
+
+/* responsividade para tablets - 1169 px a 768px */
+
+@media (max-width: 1169px)
+{
+    /* menu */
+
+#menus{
+    text-align: center;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 20px;
+    }
+
+#menus table thead tr th a{
+    color:  white;
+    
+}
+
+nav img{
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+}
+    
+    .banner img {
+    width: 100%;
+    }
+    
+    #Conteudo {
+    text-align: center;
+    margin: auto;
+    font-size: 22px;
+    padding-bottom: 15px;
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+#caixa div img{
+    padding-bottom: 30px;
+    width: 250px;
+}
+
+.caixaitem {
+    width: 250px;
+    
+}
+
+ #caixa{
+    background-color: #FFFFFF;
+    margin: auto;
+   
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 1,5;
+    border-bottom: 1px solid #e7e7e7;
+}   
+        
+    #secundario {
+    text-align: center;
+    padding-bottom: 35px;
+    text-decoration: none;
+        font-size: 14px;
+}
+
+    #secundario h2{
+        font-size: 30px;
+    }
+
+
+#secundario img{
+    width: 540px;
+    padding-bottom: 25px;
+}
+
+
+#secundario p {
+    width: 450px;
+    text-align: center;
+    margin: auto;
+    color: black;
+    text-decoration-color: black;
+}
+footer{
+    color: white;background-color: black;
+    margin: auto;
+   
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 20px;
+    line-height: 0.5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    }
+      
+    footer table {
+        align-items: baseline;
+    }  
+       
+
+    footer a{
+        color: white;
+    }
+
+    footer a:hover{
+        color: white;
+    }
+    
+    footer img{
+    width: 50px;
+}
+
+}
+
+/* responsividade para celulares - 767 a 321 px de tela */
+
+@media (max-width: 767px){
+
+    /* menu */
+
+#menus{
+    text-align: center;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 20px;
+    }
+
+#menus table thead tr th a{
+    color:  white;
+    
+}
+
+nav img{
+    width: 120px;
+    padding-top: 05px;
+    padding-bottom: 05px;
+    margin: auto;
+}
+    
+    .banner img {
+    width: 100%;
+    }
+    
+    #Conteudo {
+    
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    text-decoration: none;
+}
+    
+    #Conteudo h1{
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    }
+    
+    #Conteudo p {
+        font-size: 16px;
+    }
+    
+    
+    
+    
+#caixa div img{
+    padding-bottom: 30px;
+    width: 200px;
+}
+
+.caixaitem {
+    width: 100%;
+   
+          
+}
+    
+
+ #caixa{
+    background-color: #FFFFFF;
+    margin: auto;
+    flex-direction: column;
+     align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    line-height: 1,5;
+    border-bottom: 1px solid #e7e7e7;
+}   
+    #caixa h3{
+        font-size: 20px;
+    }
+    
+    #caixa a{
+        font-size: 14px;
+    }
+        
+    #secundario {
+    text-align: center;
+    padding-bottom: 35px;
+    text-decoration: none;
+        font-size: 14px;
+}
+
+    #secundario h2{
+        font-size: 30px;
+    }
+
+
+#secundario img{
+    width: 100%;
+    padding-bottom: 25px;
+}
+
+    #secundario h2{
+        font-size: 25px;
+    }
+
+#secundario p {
+    width: 100%;
+    font-size: 14px;
+    text-align: center;
+    margin: auto;
+    color: black;
+    text-decoration-color: black;
+}
+footer{
+    color: white;background-color: black;
+    margin: auto;
+   
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 15px;
+    line-height: 0.5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    }
+      
+    
+   footer img{
+    width: 28px;
+}   
+
+    footer a{
+        color: white;
+        font-size: 11px;
+    }
+
+    
+    
+    footer p{
+        font-size: 11px;
+    }
+    footer a:hover{
+        color: white;
+    }
+    
+    .poema p{
+        font-size: 15px;
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+}
+
+/* responsividade para celulares - 767 a 321 px de tela */
+
+@media (max-width: 320px){
+    
+footer img{
+    width: 28px;
+}
+    footer a{
+        color: white;
+        font-size: 11px;
+    }
+    
+}
+
